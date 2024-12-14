@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="div-holder">
+      <div class="calculator">
+        <p class="js-calculation-display calculation-display"></p>
+        <p>
+          <button class="calculator-button gray-button" onclick="number(7);">
+            7
+          </button>
+          <button class="calculator-button gray-button" onclick="number(8);">
+            8
+          </button>
+          <button class="calculator-button gray-button" onclick="number(9);">
+            9
+          </button>
+          <button
+            class="calculator-button orange-button"
+            onclick="number(` / `);"
+          >
+            /
+          </button>
+        </p>
+        <p>
+          <button class="calculator-button gray-button" onclick="number(4);">
+            4
+          </button>
+          <button class="calculator-button gray-button" onclick="number(5);">
+            5
+          </button>
+          <button class="calculator-button gray-button" onclick="number(6);">
+            6
+          </button>
+          <button
+            class="calculator-button orange-button"
+            onclick="number(` * `);"
+          >
+            *
+          </button>
+        </p>
+        <p>
+          <button class="calculator-button gray-button" onclick="number(1);">
+            1
+          </button>
+          <button class="calculator-button gray-button" onclick="number(2);">
+            2
+          </button>
+          <button class="calculator-button gray-button" onclick="number(3);">
+            3
+          </button>
+          <button
+            class="calculator-button orange-button"
+            onclick="number(` - `);"
+          >
+            -
+          </button>
+        </p>
+        <p>
+          <button class="calculator-button gray-button" onclick="number('.');">
+            .
+          </button>
+          <button class="calculator-button gray-button" onclick="number(0);">
+            0
+          </button>
+          <button
+            class="calculator-button gray-button"
+            onclick="displayResult();"
+          >
+            =
+          </button>
+          <button
+            class="calculator-button orange-button"
+            onclick="number(` + `);"
+          >
+            +
+          </button>
+        </p>
+        <p>
+          <button
+            class="calculator-button clear-button gray-button"
+            onclick="clearResult();"
+          >
+            Clear
+          </button>
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="calculator.js"></script>
+</html>

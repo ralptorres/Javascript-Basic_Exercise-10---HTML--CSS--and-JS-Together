@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>Youtube Subscribe Button</p>
+      <button
+        class="js-subscribe-button subscribe-button"
+        onclick="subscribe();"
+      >
+        Subscribe
+      </button>
+    </div>
+    <div>
+      <p>Amazon Shipping Calculator</p>
+      <p>Orders under $40 = +$10 shipping</p>
+      <p>Orders over $40 = Free shipping</p>
+      <input
+        type="text"
+        class="js-input-cost input-cost"
+        placeholder="Cost of order"
+        onkeydown="handleCostKeydown(event);"
+      />
+      <button
+        class="js-calculate-button calculate-button"
+        onclick="calculateShipping();"
+      >
+        Calculate
+      </button>
+      <p class="js-total-cost total-cost"></p>
+    </div>
+    <br /><br /><br />
+    <div>
+      <button class="js-add-to-cart-button add-to-cart-button">
+        Add to Cart
+      </button>
+      <br /><br />
+      <br />
+      <button class="js-request-now-button request-now-button">
+        Request now
+      </button>
+      <button class="js-schedule-for-later-button schedule-for-later-button">
+        Schedule for later
+      </button>
+      <br />
+      <br />
+      <button class="js-button">Test</button>
+    </div>
+    <br /><br /><br />
+    <div>
+      <button
+        class="js-gaming-btn btn"
+        onclick="clickButton('.js-gaming-btn');"
+      >
+        Gaming
+      </button>
+      <button class="js-music-btn btn" onclick="clickButton('.js-music-btn');">
+        Music
+      </button>
+      <button class="js-tech-btn btn" onclick="clickButton('.js-tech-btn');">
+        Tech
+      </button>
+    </div>
+    <br /><br />
+    <div>
+      <button
+        class="js-gaming-btn1 btn"
+        onclick="oneClickButton('.js-gaming-btn1');"
+      >
+        Gaming
+      </button>
+      <button
+        class="js-music-btn1 btn"
+        onclick="oneClickButton('.js-music-btn1');"
+      >
+        Music
+      </button>
+      <button
+        class="js-tech-btn1 btn"
+        onclick="oneClickButton('.js-tech-btn1');"
+      >
+        Tech
+      </button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
